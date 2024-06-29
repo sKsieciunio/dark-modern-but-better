@@ -94,7 +94,7 @@
 		"selection.background": "#88c0d0",
 		"sideBar.background": "#212121",
 		"sideBar.border": "#303030",
-		"sideBar.foreground": "#d8dee9",
+		"sideBar.foreground": "#c2c7cf",
 		"sideBarSectionHeader.background": "#212121",
 		"sideBarSectionHeader.foreground": "#d8dee9",
 		"sideBarTitle.background": "#212121",
@@ -113,23 +113,25 @@
 		"tab.inactiveForeground": "#979797",
 		"tab.unfocusedActiveBorder": "#303030",
 		"tab.unfocusedActiveForeground": "#d8dee9",
+
 		"terminal.ansiBlack": "#3b4252",
-		"terminal.ansiBlue": "#81a1c1",
+		"terminal.ansiBlue": "#82aaff",
 		"terminal.ansiBrightBlack": "#4c566a",
-		"terminal.ansiBrightBlue": "#81a1c1",
-		"terminal.ansiBrightCyan": "#8fbcbb",
-		"terminal.ansiBrightGreen": "#a3be8c",
-		"terminal.ansiBrightMagenta": "#b48ead",
-		"terminal.ansiBrightRed": "#bf616a",
+		"terminal.ansiBrightBlue": "#82aaff",
+		"terminal.ansiBrightCyan": "#4ec9b0",
+		"terminal.ansiBrightGreen": "#c3e88d",
+		"terminal.ansiBrightMagenta": "#c792ea",
+		"terminal.ansiBrightRed": "#ff5370",
 		"terminal.ansiBrightWhite": "#eceff4",
-		"terminal.ansiBrightYellow": "#ebcb8b",
-		"terminal.ansiCyan": "#88c0d0",
-		"terminal.ansiGreen": "#a3be8c",
-		"terminal.ansiMagenta": "#b48ead",
-		"terminal.ansiRed": "#bf616a",
+		"terminal.ansiBrightYellow": "#ffcb6b",
+		"terminal.ansiCyan": "#4ec9b0",
+		"terminal.ansiGreen": "#c3e88d",
+		"terminal.ansiMagenta": "#c792ea",
+		"terminal.ansiRed": "#ff5370",
 		"terminal.ansiWhite": "#e5e9f0",
-		"terminal.ansiYellow": "#ebcb8b",
+		"terminal.ansiYellow": "#ffcb6c",
 		"terminal.foreground": "#d8dee9",
+
 		"textLink.activeForeground": "#eeffff",
 		"textLink.foreground": "#88c0d0",
 		"titleBar.activeBackground": "#212121",
@@ -185,7 +187,7 @@
 		},
 		{
 			"name": "Punctuation",
-			"scope": ["punctuation"],
+			"scope": ["punctuation", "punctuation.section.embedded"],
 			"settings": {
 				"foreground": "#d8dee9"
 			}
@@ -200,7 +202,6 @@
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
 			],
@@ -364,16 +365,12 @@
 		},
 		{
 			"name": "Attributes",
-			"scope": ["entity.other.attribute-name"],
+			"scope": [
+				"entity.other.attribute-name",
+				"entity.other.attribute-name.html"
+			],
 			"settings": {
-				"foreground": "#a5a5a5"
-			}
-		},
-		{
-			"name": "HTML Attributes",
-			"scope": ["entity.other.attribute-name.html"],
-			"settings": {
-				"foreground": "#a5a5a5"
+				"foreground": "#89ddff"
 			}
 		},
 		{
