@@ -1,6 +1,6 @@
 {
-  "name": "f-my-perfectionism-theme",
-  "displayName": "F my perfectionism theme",
+  "name": "modern-dark-but-better",
+  "displayName": "Modern Dark But Better",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "F my perfectionism theme",
+        "label": "Modern Dark But Better",
         "uiTheme": "vs-dark",
-        "path": "./themes/F my perfectionism theme-color-theme.json"
+        "path": "./themes/modern-dark-but-better-color-theme.json"
       }
     ]
   }
