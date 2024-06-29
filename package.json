@@ -1,0 +1,21 @@
+{
+  "name": "f-my-perfectionism-theme",
+  "displayName": "F my perfectionism theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "F my perfectionism theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/F my perfectionism theme-color-theme.json"
+      }
+    ]
+  }
+}
