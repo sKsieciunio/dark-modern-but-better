@@ -3,6 +3,10 @@
   "displayName": "Modern Dark But Better",
   "description": "",
   "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/sKsieciunio/ModernDarkButBetter",
+    "type": "git"
+  },
   "engines": {
     "vscode": "^1.90.0"
   },
