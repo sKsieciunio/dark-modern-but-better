@@ -1,9 +1,9 @@
-# Change Log
-
-All notable changes to the "f-my-perfectionism-theme" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+# version 0.0.1
+- get rid of that ugly ass purple keywords, made them dark blue,
+- changed color of variables to white,
+- changed color of punctiuation to grey,
+- changed color of numeric literals to purple, 
+- changed color of string literals to green,
+- tweaked color of functions to more vibrant, 
+- arrows in arrow functions made white,
+- minor tweaks to css to match colors

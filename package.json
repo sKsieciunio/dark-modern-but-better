@@ -2,7 +2,9 @@
   "name": "modern-dark-but-better",
   "displayName": "Modern Dark But Better",
   "description": "",
+  "publisher": "sKsieciunio",
   "version": "0.0.1",
+  "icon": "icon.png",
   "repository": {
     "url": "https://github.com/sKsieciunio/ModernDarkButBetter",
     "type": "git"
@@ -13,6 +15,10 @@
   "categories": [
     "Themes"
   ],
+  "galleryBanner": {
+    "color": "#0078d4",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
