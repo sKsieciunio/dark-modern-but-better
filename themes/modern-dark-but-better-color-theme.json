@@ -906,7 +906,7 @@
 				"keyword.operator.minus.exponent"
 			],
 			"settings": {
-				"foreground": "#c792ea"
+				"foreground": "#c586c0"
 			}
 		},
 		{
@@ -1020,7 +1020,7 @@
 		{
 			"scope": "markup.inline.raw",
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#b7d688"
 			}
 		},
 		{
@@ -1038,13 +1038,13 @@
 		{
 			"scope": "meta.preprocessor.string",
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#b7d688"
 			}
 		},
 		{
 			"scope": "meta.preprocessor.numeric",
 			"settings": {
-				"foreground": "#B5CEA8"
+				"foreground": "#c586c0"
 			}
 		},
 		{
@@ -1080,19 +1080,19 @@
 		{
 			"scope": ["string", "meta.embedded.assembly"],
 			"settings": {
-				"foreground": "#b8da85"
+				"foreground": "#b7d688"
 			}
 		},
 		{
 			"scope": "string.tag",
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#b7d688"
 			}
 		},
 		{
 			"scope": "string.value",
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#b7d688"
 			}
 		},
 		{
@@ -1125,7 +1125,7 @@
 				"source.coffee.embedded"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#cccccc"
 			}
 		},
 		{
@@ -1166,7 +1166,7 @@
 		{
 			"scope": "keyword.other.unit",
 			"settings": {
-				"foreground": "#c3e88d"
+				"foreground": "#b7d688"
 			}
 		},
 		{
@@ -1222,7 +1222,7 @@
 				"entity.name.operator.custom-literal"
 			],
 			"settings": {
-				"foreground": "#e2e290"
+				"foreground": "#dcdcaa"
 			}
 		},
 		{
@@ -1326,7 +1326,7 @@
 				"support.constant.color"
 			],
 			"settings": {
-				"foreground": "#c3e88d"
+				"foreground": "#b7d688"
 			}
 		},
 		{
@@ -1390,7 +1390,8 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#666666"
+				"foreground": "#666666",
+				"fontStyle": "italic bold"
 			}
 		},
 		{
