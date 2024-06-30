@@ -3,7 +3,7 @@
   "displayName": "Modern Dark But Better",
   "description": "",
   "publisher": "sKsieciunio",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "icon": "icon.png",
   "repository": {
     "url": "https://github.com/sKsieciunio/ModernDarkButBetter",
@@ -19,6 +19,13 @@
     "color": "#0078d4",
     "theme": "dark"
   },
+  "keywords": [
+    "dark",
+    "modern",
+    "better",
+    "new",
+    "vscode"
+  ],
   "contributes": {
     "themes": [
       {

@@ -1391,7 +1391,7 @@
 			"scope": "comment",
 			"settings": {
 				"foreground": "#666666",
-				"fontStyle": "italic bold"
+				"fontStyle": "italic"
 			}
 		},
 		{
