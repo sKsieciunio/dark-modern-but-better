@@ -1026,7 +1026,7 @@
 		{
 			"scope": "punctuation.definition.tag",
 			"settings": {
-				"foreground": "#808080"
+				"foreground": "#a0a0a0"
 			}
 		},
 		{
@@ -1173,7 +1173,7 @@
 			"name": "punctuation",
 			"scope": ["punctuation", "meta.brace"],
 			"settings": {
-				"foreground": "#808080"
+				"foreground": "#a0a0a0"
 			}
 		},
 		{
