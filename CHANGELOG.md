@@ -1,18 +1,9 @@
-# version 1.1.0
+# version 1.2.0
 
-- added semantic highlighting
-- changed color of punctuation to white
-
-# version 1.0.0
-
-- published
-
-# version 0.0.1
-
-- get rid of that ugly ass purple keywords, made them dark blue,
-- changed color of variables to white,
-- changed color of punctiuation to grey,
-- changed color of numeric literals to purple,
-- changed color of string literals to green,
-- arrows in arrow functions made white,
-- minor tweaks to css to match colors
+-   Got rid of that ugly ass string color, now its nice green
+-   Since strings are green, numbers has been changed to pinkish-red
+-   Every purple keyword is now good old blue
+-   Changed color of variables to plain white, cuz there is too much color already
+-   Comments are grey as they should be from beginning
+-   Made functions yellow a little bit more vibrant
+-   additionally with semantic highlighting, parameters are light blue

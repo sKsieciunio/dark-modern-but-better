@@ -3,7 +3,7 @@
     "displayName": "Dark Modern But Better",
     "description": "Basically dark modern theme but with changed coloring rules",
     "publisher": "sKsieciunio",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "icon": "icon.png",
     "repository": {
         "url": "https://github.com/sKsieciunio/dark-modern-but-better",
@@ -32,11 +32,6 @@
                 "label": "Dark Modern But Better",
                 "uiTheme": "vs-dark",
                 "path": "./themes/modern-dark-but-better-color-theme.json"
-            },
-            {
-                "label": "prod-shit",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dark_plus.json"
             }
         ]
     }

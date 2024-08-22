@@ -3,17 +3,107 @@
     "$schema": "vscode://schemas/color-theme",
     "type": "dark",
     "include": "./dark_modern.json",
-    "semanticHighlighting": false
-    // "semanticTokenColors": {
-    //     // dark_plus.json
-    //     "newOperator": "#C586C0",
-    //     "stringLiteral": "#ce9178",
-    //     "customLiteral": "#DCDCAA",
-    //     "numberLiteral": "#b5cea8",
-    //     // dark_vs.json
-    //     "newOperator": "#d4d4d4",
-    //     "stringLiteral": "#ce9178",
-    //     "customLiteral": "#D4D4D4",
-    //     "numberLiteral": "#b5cea8"
-    // },
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "variable": "#d4d4d4",
+        "function": "#d8d88a",
+        "enumMember": "#beb7ff",
+        "macro": "#beb7ff",
+        "parameter": "#9cdcfe",
+        "type": "#4ec9b0",
+        "operatorOverload": "#d4d4d4",
+        "memberOperatorOverload": "#d4d4d4"
+    },
+    "tokenColors": [
+        {
+            "name": "Comments",
+            "scope": "comment",
+            "settings": {
+                "foreground": "#777",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Function declarations",
+            "scope": [
+                "entity.name.function",
+                "support.function",
+                "support.constant.handlebars",
+                "source.powershell variable.other.member",
+                "entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
+            ],
+            "settings": {
+                "foreground": "#d8d88a"
+            }
+        },
+        {
+            "name": "Variable and parameter name",
+            "scope": [
+                "variable",
+                "meta.definition.variable.name",
+                "support.variable",
+                "entity.name.variable"
+            ],
+            "settings": {
+                "foreground": "#d4d4d4"
+            }
+        },
+        {
+            "name": "Control flow / Special keywords",
+            "scope": [
+                "keyword.control",
+                "source.cpp keyword.operator.new",
+                "keyword.operator.delete",
+                "keyword.other.using",
+                "keyword.other.directive.using",
+                "keyword.other.operator",
+                "entity.name.operator"
+            ],
+            "settings": {
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "name": "Numeric",
+            "scope": [
+                "constant.numeric",
+                "keyword.operator.plus.exponent",
+                "keyword.operator.minus.exponent",
+                "keyword.other.unit"
+            ],
+            "settings": {
+                "foreground": "#ee9090"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": [
+                "string",
+                "meta.embedded.assembly",
+                "meta.preprocessor.string",
+                "string.tag",
+                "string.value",
+                // css property value
+                "support.constant.property-value",
+                "support.constant.font-name",
+                "support.constant.media-type",
+                "support.constant.media",
+                "constant.other.color.rgb-value",
+                "constant.other.rgb-value",
+                "support.constant.color"
+            ],
+            "settings": {
+                "foreground": "#9fda81"
+            }
+        },
+        {
+            "name": "JSON Key - Level 0",
+            "scope": [
+                "source.json meta.structure.dictionary.json support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#d4d4d4"
+            }
+        }
+    ]
 }
