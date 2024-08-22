@@ -32,6 +32,11 @@
                 "label": "Dark Modern But Better",
                 "uiTheme": "vs-dark",
                 "path": "./themes/modern-dark-but-better-color-theme.json"
+            },
+            {
+                "label": "prod-shit",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark_plus.json"
             }
         ]
     }

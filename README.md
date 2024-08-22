@@ -12,7 +12,7 @@ https://marketplace.visualstudio.com/items?itemName=sKsieciunio.modern-dark-but-
 
 ### palette
 
-#cccccc white
+#d4d4d4 white
 foreground
 
 #aaaaaa light grey
@@ -34,7 +34,7 @@ storage type
 
 #4ec9b0 turquoise
 
-#dcdcaa yellow
+#dcdcaa yellow -> d8d894
 
 #ce9178 light orange
 
