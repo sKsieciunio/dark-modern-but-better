@@ -1,5 +1,5 @@
 <p align="center">
-	<h1 align="center">Dark Modern But Better</h1>
+	<h1 align="center"><a href="https://marketplace.visualstudio.com/items?itemName=sksieciunio.modern-dark-but-better">Dark Modern But Better</a></h1>
 	<h3 align="center">
 		Its mostly same theme as one shipped with vscode with minor changes:
 	</h3>
